@@ -1,0 +1,24 @@
+.container {
+  background-color: yellow;
+}
+
+.box {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  animation-name: ankit;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes ankit {
+  from {
+    width: 200px;
+  }
+
+  to {
+    width: 400px;
+  }
+}
