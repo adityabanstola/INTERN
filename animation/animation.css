@@ -1,24 +1,76 @@
 .container {
   background-color: yellow;
+  animation-name:narayanam ;
+  width: 400px;
+  height: 600px;
+  animation-duration : 3s ;
+  animation-iteration-count: infinite;
 }
 
 .box {
   background-color: red;
   width: 250px;
   height: 250px;
-  position: relative;
-  animation-name: ankit;
-  animation-duration: 1s;
+  position:relative;
+  animation-name: ankit ;
+  animation-duration: 0.001s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  animation-direction: reverse;
 }
+
+.saman{
+  background-color: black;
+  position: absolute;
+  animation-name: yalla;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.kada{
+  background-color:green;
+  position: absolute;
+  animation-name: salla;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+/* this is for the animation of particular division*/
 
 @keyframes ankit {
   from {
-    width: 200px;
+    width: 400px;
   }
 
   to {
-    width: 400px;
+    width: 600px;
   }
 }
+@keyframes salla {
+  from {
+    width: 400px;
+  }
+
+  to {
+    width: 600px;
+  }
+}
+
+@keyframes yalla {
+  from {
+    width: 400px;
+  }
+
+  to {
+    width: 600px;
+  }
+}
+
+@keyframes narayanam {
+  0%{
+    width: auto;
+  }
+  100%{
+    width: 800px;
+  }
+}
+
